@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+ 120deg,
+ #edf2fb,
+ #e2eafc,
+ #d7e3fc,
+ #ccdbfd
+);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.subtitle {
+  color: #7f8c8d;
+}
+
+.form-panel {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccd6e0;
+}
+
+button {
+  background: #5b7cfa;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3f5de2;
+}
+
+.stats-panel {
+  display: flex;
+  gap: 18px;
+  margin: 25px 0;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+}
+
+.pass-card {
+  border-top: 4px solid #2ecc71;
+}
+
+.avg-card {
+  border-top: 4px solid #9b59b6;
+}
+
+.table-panel {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #eef2f7;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.score-highlight {
+  font-weight: 600;
+}
+
+.pass {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.fail {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.update-btn {
+  margin-left: 8px;
+  background: #2c3e50;
+}
+
+.update-btn:hover {
+  background: black;
+}
